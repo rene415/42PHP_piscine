@@ -2,46 +2,611 @@
 <HEAD>
 	<TITLE>Mendeleiev Periodic Table</TITLE>
 	<STYLE>
-		.container {
-			  position: relative;
-			  text-align: center;
-			  color: white;
-
+		.table_body{
+			background-color: #7FFFD4; 
 		}
-		.box {
-			width:180;
-			height:200;
+		.title_name {
+			text-align: center;
+			font-style: italic;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 5vw;
 		}
-		.centered {
-			position: absolute;
-    		top: 50%;
-    		left: 50%;
-    		transform: translate(-50%, -50%);
+		* {
+			box-sizing: border-box;
+		}
+		.col_first {
+			width: 5.5%;
+			float:left;
+			padding-left: 5px;
+		}
+		.col_last {
+			width: 5.5%;
+			float:left;
+			padding-right: 5px;
+		}
+		.col {
+			width: 5.5%;
+			float:left;
+		}
+		.row{
+			border:1px solid;
+			padding:15px;
+		}
+		.row_blank {
+			border:1px solid #7FFFD4;
+			padding: 15px;
+		}
+		.symbol{
+			text-align: center;
+			font-size: 1vw;
+		}
+		.element_info {
+			text-align: left;
+			font-size: .6vw;
 		}
 
 	</STYLE>
-<BODY>
-	<DIV class="container">
-		<DIV STYLE= "margin-right:10;" 
-			<IMG  class ="box"src="http://moziru.com/images/square-clipart-colored-4.png" />
-			<DIV  class="centered">
-				1</BR>
-				<H1>H</H1>
-				Hydrogen</BR>
-				</BR>
-				1.008
+<BODY class="table_body">	
+	<H1 class="title_name">Periodic Table Of Elements</H1></BR>
+	<DIV>
+
+		<DIV class="col_first">
+			<DIV class="row">
+				<H1 class="symbol">H</H1>
+				<A class="element_info">1</BR>1.008</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Li</H1>
+				<A class="element_info">3</BR>6.938</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Na</H1>
+				<A class="element_info">11</BR>22.990</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">K</H1>
+				<A class="element_info">19</BR>39.098</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Rb</H1>
+				<A class="element_info">37</BR>85.468</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Cs</H1>
+				<A class="element_info">55</BR>132.91</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Fr</H1>
+				<A class="element_info">87</BR>(223)</A>
 			</DIV>
 		</DIV>
-		<DIV STYLE= "margin-left:10;" >
-			<IMG  class ="box"src="http://moziru.com/images/square-clipart-colored-4.png" />
-			<DIV  class="centered">
-				2</BR>
-				<H1>He</H1>
-				Helium</BR>
-				</BR>
-				4.0026
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">BR</H1>
+				<A class="element_info">4</BR>9.0122</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Mg</H1>
+				<A class="element_info">12</BR>24.305</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ca</H1>
+				<A class="element_info">20</BR>40.078</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Sr</H1>
+				<A class="element_info">38</BR>87.62</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ba</H1>
+				<A class="element_info">56</BR>137.33</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ra</H1>
+				<A class="element_info">88</BR>(226)</A>
+			</DIV>
 		</DIV>
-	</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Sc</H1>
+				<A class="element_info">21</BR>44.956</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Y</H1>
+				<A class="element_info">39</BR>88.906</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ti</H1>
+				<A class="element_info">22</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Zr</H1>
+				<A class="element_info">40</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Hf</H1>
+				<A class="element_info">72</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Rf</H1>
+				<A class="element_info">104</BR>(261)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
+		<DIV class="col_last">
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row_blank">
+				<H1 class="symbol">&nbsp;</H1>
+				<A class="element_info">&nbsp;</BR>&nbsp;</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">V</H1>
+				<A class="element_info">23</BR>47.867</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Nb</H1>
+				<A class="element_info">41</BR>91.224</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Ta</H1>
+				<A class="element_info">73</BR>178.49</A>
+			</DIV>
+			<DIV class="row">
+				<H1 class="symbol">Db</H1>
+				<A class="element_info">105</BR>(262)</A>
+			</DIV>
+		</DIV>
+
 	</DIV>
 </BODY>
 </HEAD>
