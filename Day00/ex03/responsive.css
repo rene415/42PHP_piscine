@@ -1,0 +1,58 @@
+.table_body{
+	background-color: #7FFFD4; 
+}
+.title_name {
+	text-align: center;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 5vw;
+}
+* { box-sizing: border-box;}
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.col {
+	padding: 5px;
+	width: 5.5%;
+	float:left;
+}
+.row{
+	border:1px solid;
+	margin: 5px;
+}
+.row_blank {
+	border:1px solid #7FFFD4;
+	margin: 5px;
+}
+.symbol{
+	text-align: center;
+	font-size: 1vw;
+}
+.number {
+	text-align: left;
+	font-size: .6vw;
+}	
+.atomic_weight {
+	font-size: .6vw;
+	text-align: right;
+	padding-right: 5px;
+}
+.number {
+	font-size: .6vw;
+	text-align: left;
+	padding-left: 5px; 
+}
+.alkalai_metals{ background-color: #FFFF00;}
+.alkalai_earth_metals { background-color: #A52A2A;}
+.lanthanides { background-color: #800080;}
+.actinides { background-color: #FF0000;}
+.transition_metals { background-color: #008000;}
+.unknown_properties { background-color: #FFFFFF;}
+.post_transition_metals { background-color: #808080;}
+.metalloids { background-color: #FFC0CB;}
+.other_nonmetals {background-color: #0000FF;}
+.halogens { background-color: #00FFFF;}
+.noblegas { background-color: #FFA500;}
