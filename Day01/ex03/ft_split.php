@@ -1,4 +1,5 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
+
 def ft_split(str)
 	i = -1;
 	split_array = str.split;
@@ -6,3 +7,5 @@ def ft_split(str)
 	split_array.each{ |items| puts"	[#{i+=1}] => #{items}"}
 	puts ")";
 end
+
+ft_split("asdh fjkls   ad j f ")
